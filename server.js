@@ -1,5 +1,6 @@
 // JSON Server module
 const jsonServer = require("json-server");
+console.log("HAHAHAHA")
 const server = jsonServer.create();
 const router = jsonServer.router("db/db.json");
 
